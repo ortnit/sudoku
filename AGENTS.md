@@ -1,5 +1,10 @@
 # Agent Guide
 
+## Project
+
+- Repository: `ortnit/sudoku`
+- Purpose: small Python Sudoku solver.
+
 ## Source-derived documentation governance
 
 Python code, tests, lock and manifest files, and examples are authoritative for current executable behavior, Python requirements, dependencies, and verification commands. Documentation records intent, decisions, constraints, and links to authoritative artifacts.
@@ -17,6 +22,7 @@ Do not add ADR, PRD, glossary, runbook, ownership, or generator structures unles
 
 - Read this file, `CLAUDE.md`, relevant docs, and current `git status` before editing.
 - Keep changes small and scoped. Remove in-scope duplicated prose rather than synchronizing another copy.
+- Keep the solver small and understandable.
 - Do not install dependencies, release, or inspect secrets unless explicitly delegated.
 - After verified task-scoped changes, commit and push directly in small, traceable commits when the repository has a safe upstream.
 - Verify with repository-native checks and `git diff --check` before handoff.
