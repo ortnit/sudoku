@@ -20,7 +20,7 @@ Do not add ADR, PRD, glossary, runbook, ownership, or generator structures unles
 
 ## Working rules
 
-- Read this file, `CLAUDE.md`, relevant docs, and current `git status` before editing.
+- Read this file, relevant docs, and current `git status` before editing.
 - Keep changes small and scoped. Remove in-scope duplicated prose rather than synchronizing another copy.
 - Keep the solver small and understandable.
 - Do not install dependencies, release, or inspect secrets unless explicitly delegated.
